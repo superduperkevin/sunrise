@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 
-
 * {
   box-sizing: border-box; /* Padding included in width*/
   font-family: Raleway;
@@ -14,7 +13,7 @@ html, body {
 }
 
 .main {
-  background-image: url('../assets//sunrise.jpg');
+  background-image: url('../assets//sunrise-bg.jpg');
   background-color: rgba(209, 160, 160, 0.3);
   background-size: cover;
   background-blend-mode: multiply;
