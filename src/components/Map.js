@@ -12,6 +12,7 @@ const mapContainerStyle = {
     height: '100%'
 }
 
+
 const center = {
     lat: 37.903460,
     lng: -122.303790
@@ -35,10 +36,9 @@ export default function Map() {
         return (
             <GoogleMap mapContainerStyle={mapContainerStyle} zoom={13} center={center}>
                 <Marker position={center} >
-                    <InfoWindow position={center}><h4>Sunrise Tailors & Cleaners <br/>10160 San Pablo Ave, El Cerrito, CA 94530</h4></InfoWindow>
+                    <InfoWindow position={center}><h3>Sunrise Tailors & Cleaners <br/>10160 San Pablo Ave, El Cerrito, CA 94530</h3></InfoWindow>
                 </Marker>                
             </GoogleMap>
         )
 }
-
 

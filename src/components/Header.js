@@ -10,15 +10,24 @@ export default class Header extends React.Component {
         return( 
             <header className="main-header">
                 <nav className="nav">
-                    <Link to={"/"}>
-                    <div className="home-logo">
-                    <img src={logo} alt="logo"/>
+                    <div className="top-nav">
+                        <p>We provide non-toxic dry cleaning and alterations all done by our expert with 20 years of experience. </p>
+                            <div>
+                            <Link to={"/"}>
+                            <div className="home-logo">
+                                <img src={logo} alt="logo"/>
+                            </div>
+                            </Link>
+                            <h1 className="title">Sunrise</h1>
+                            </div>
+                            
+                        <p>We pay attention to quality and detail to all and every work. All projects are welcome, big or small.</p>
                     </div>
-                    </Link>
-                <ul>
-                    {/* <Link to="/about" className="nav-links">About</Link> */}
-                    <Link to="/testimonials" className="nav-links">Testimonials</Link>
-                </ul>
+                    <ul className="bottom-nav">
+                        <Link to="/" className="nav-links">HOME</Link>
+                        <Link to="/directions" className="nav-links">DIRECTIONS</Link>
+                        <Link to="/reviews" className="nav-links">REVIEWS</Link>
+                    </ul>
                 </nav>
             </header>
         )

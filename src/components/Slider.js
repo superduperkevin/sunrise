@@ -29,7 +29,7 @@ function Slider() {
         }
 
         return(
-            <div className="slider">
+            <div className="reviews">
                 {sliderArr.map((item, index) => {
                     return(
                     <div key={index} className="slide" style={{transform: `translateX(${x}%)`}}> 

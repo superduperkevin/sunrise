@@ -22,7 +22,7 @@ export default class ImgComp extends React.Component {
     }
 
     render() {
-        let src = this.state.src;
+        // let src = this.state.src;
         const author = this.state.author;
         const {paragraph1, paragraph2, paragraph3, paragraph4} = this.state.review;
         return (
@@ -34,7 +34,7 @@ export default class ImgComp extends React.Component {
             <p>{paragraph4}</p>
             <p className="author"> - {author}</p>
         </div>
-        <img src={src} alt="slide-img"></img>
+        {/* <img src={src} alt="slide-img"></img> */}
     </div>)
     }
 }

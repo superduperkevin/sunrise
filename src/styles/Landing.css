@@ -1,22 +1,14 @@
 .container {
-    width: 95%;
+    width: 100%;
+    height: 100vh;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 .container h1 {
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
-}
-
-.container h3 {
-    margin-top: 3rem;
-    text-align: center;
-    /* color: rgba(212, 124, 23, 0.925); */
-    background-color: rgba(212, 124, 23, 0.925);
-    /* background-color: rgb(218, 214, 214); */
-    color: black;
-    border-radius: 5px;
-    padding: 0.2rem;
 }
 
 ul {
@@ -33,66 +25,32 @@ ul li i {
     vertical-align: sub;
 }
 
-.landing-content {
-    margin-top: 4rem;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-
-.google-maps {
-    /* margin-left: 1rem; */
-    width: 30%;
-    height: 20rem;
-    /* background-color: red; */
-    /* border-radius: 5px; */
-}
-
-.google-maps h4 {
-    margin:auto;
-    padding-left: 0.5rem;
-}
-
-.hours {
-    width: 30%;
-    background-color: rgba(255, 255, 255, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-.hours ul {
-    height: 80%;
-}
-
-.hours ul li {
-    margin-top: 1rem;
-}
-
 .contact {
-    width: 30%;
+    width: 80%;
+    height: 70%;
     display: flex;
     background-color: rgb(155, 214, 241);
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 1rem;
     border-radius: 5px;
 }
 
-.contact ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 80%;
-}
-
 .contact ul li{
-    line-height: 2;
+    line-height: 3;
 }
 
 .name {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: rgba(212, 124, 23, 1);
+}
 
+.business-hours {
+    color: rgba(212,124,23,1);
+}
+
+.promotion {
+    font-size: 1.5rem;
+    /* border-bottom: 1px solid; */
 }

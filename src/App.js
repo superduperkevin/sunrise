@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import Landing from './components/Landing';
-// import About from './components/About';
+import Direction from './components/Direction';
 import Testimonials from './components/Testimonials.js';
 import Footer from './components/Footer';
 
@@ -14,13 +14,14 @@ class App extends Component {
   
   render() {
   return (
-        <div className="main">
+        <div className="body">
         <BrowserRouter>
           {/* <div className="main"> */}
             <Header />
             <Route exact path="/" component={Landing} />
             {/* <Route path="/about" component={About} /> */}
-            <Route path="/testimonials" component={Testimonials} />
+            <Route path="/reviews" component={Testimonials} />
+            <Route path="/directions" component={Direction} />
             <Footer/>
           {/* </div> */}
         </BrowserRouter>
