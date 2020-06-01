@@ -15,13 +15,13 @@ export default class Landing extends React.Component {
                         </ul>
                         <ul>
                             <li className="business-hours"><b>Business Hours</b></li>
-                            <li><b>Monday:</b> 10 am - 6:00 pm</li>
-                            <li><b>Tuesday:</b> 10 am - 6:00 pm</li>
-                            <li><b>Wednesday:</b> 10 am - 6:00 pm</li>
-                            <li><b>Thursday:</b> 10 am - 6:00 pm</li>
-                            <li><b>Friday:</b> 10 am - 6:00 pm</li>
-                            <li><b>Saturday:</b> 10 am - 6:00 pm</li>
-                            <li><b>Sunday:</b> Closed</li>
+                            <li><b>Mon:</b> 10 am - 6:00 pm</li>
+                            <li><b>Tue:</b> 10 am - 6:00 pm</li>
+                            <li><b>Wed:</b> 10 am - 6:00 pm</li>
+                            <li><b>Thu:</b> 10 am - 6:00 pm</li>
+                            <li><b>Fri:</b> 10 am - 6:00 pm</li>
+                            <li><b>Sat:</b> 10 am - 6:00 pm</li>
+                            <li><b>Sun:</b> Closed</li>
                         </ul>
                     </div>
                     

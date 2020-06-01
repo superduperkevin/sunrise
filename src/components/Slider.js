@@ -14,8 +14,6 @@ import reviews from './Reviews';
 
 function Slider() {
 
-        // console.log(reviews.review1.author);
-
         let sliderArr = [<ImgComp src={image1} review={reviews.review1} author={reviews.review1.author}/>, <ImgComp src={image2} review={reviews.review2} author={reviews.review2.author}/>, <ImgComp src={image3} review={reviews.review3} author={reviews.review3.author}/>, <ImgComp src={image4} review={reviews.review4} author={reviews.review4.author}/>, <ImgComp src={image5} review={reviews.review5} author={reviews.review5.author}/>];
         const [x, setX] = useState(0)
 

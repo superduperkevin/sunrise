@@ -18,15 +18,12 @@ const center = {
     lng: -122.303790
 }
 
-// const options = {
-//     styles: 
-// }
-
 export default function Map() {
 
+    console.log(process.env.REACT_APP_MAP_KEY);
+
     const {isLoaded, loadError} = useLoadScript({
-        // googleMapsApiKey: process.env.REACT_APP_MAP_KEY,
-        googleMapsApiKey: "AIzaSyCdMHRYpC3xKRHwtLObtlNwGBDyJ-woiRI",
+        googleMapsApiKey: process.env.REACT_APP_MAP_KEY,
         libraries,
 
     });
