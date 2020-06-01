@@ -20,12 +20,12 @@ const center = {
 
 export default function Map() {
 
-    console.log(process.env.REACT_APP_MAP_KEY);
+    // console.log(process.env);
+    // console.log(process.env.REACT_APP_MAP_KEY);
 
     const {isLoaded, loadError} = useLoadScript({
         googleMapsApiKey: process.env.REACT_APP_MAP_KEY,
         libraries,
-
     });
 
     if(loadError) return "Error loading Maps";
