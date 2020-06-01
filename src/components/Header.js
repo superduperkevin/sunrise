@@ -18,7 +18,7 @@ export default class Header extends React.Component {
                                 <img src={logo} alt="logo"/>
                             </div>
                             </Link>
-                            <h1 className="title">Sunrise</h1>
+                            <h1 className="title">SUNRISE</h1>
                             </div>
                             
                         <p>We pay attention to quality and detail to all and every work. All projects are welcome, big or small.</p>
